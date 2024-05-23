@@ -8,8 +8,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "chart.js": "^4.4.2",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "daisyui": "^4.11.1",
+    "mitt": "^3.0.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vue": "^3.2.13",
+    "vue-chartjs": "^5.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -39,5 +46,11 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  }
 }
